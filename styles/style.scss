@@ -1,0 +1,37 @@
+$cor-primaria: blue;
+$cor-secundaria: tomato;
+@mixin primeiro-stilo{
+    background-color: $cor-secundaria;
+    width: 50%;
+    .texto{
+        color: $cor-primaria;
+        padding-left: 50%;
+    }
+}
+
+@mixin segundo-estilo{
+    background-color: blueviolet;
+    width: 50% ;
+    .texto{
+        align-items: center;
+        color: black;
+        padding-left: 50%;
+    }
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    .esquerdo{
+      @include primeiro-stilo();
+        }
+    }
+    .direito{
+      @include segundo-estilo();
+    }
