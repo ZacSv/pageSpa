@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+.container .esquerdo {
+  background-color: tomato;
+  width: 50%;
+}
+.container .esquerdo .texto {
+  color: blue;
+  padding-left: 50%;
+}
+
+.direito {
+  background-color: blueviolet;
+  width: 50%;
+}
+.direito .texto {
+  align-items: center;
+  color: black;
+  padding-left: 50%;
+}/*# sourceMappingURL=style.css.map */
