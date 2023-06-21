@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Comic+Neue:wght@400;700&family=Dosis:wght@500&family=Lilita+One&family=Montserrat:wght@100&family=Roboto+Condensed&display=swap');
+
+$cor-primaria: #F7E1AE;
+$cor-secundaria: #B04759;
+$cor-terciaria: #E76161;
+$cor-hover: #8BACAA;
+
+html, body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: $cor-primaria;
+}
