@@ -7,11 +7,15 @@
 html, body {
   font-family: "Roboto Condensed", sans-serif;
   background-color: #F7E1AE;
+  margin: 0;
+  padding: 0;
 }
 
 html, body {
   font-family: "Roboto Condensed", sans-serif;
   background-color: #F7E1AE;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -35,4 +39,28 @@ nav ul li a:hover {
   background-color: #974452;
   border-radius: 30px;
   font-weight: bold;
+}
+
+.banner {
+  background: url(../../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  border-radius: 50px;
+  background-color: #F7E1AE;
+  opacity: 0.9;
+  padding: 3rem;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-left: 13%;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
 }/*# sourceMappingURL=style.css.map */
