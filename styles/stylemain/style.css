@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&family=Comic+Neue:wght@400;700&family=Dosis:wght@500&family=Lilita+One&family=Montserrat:wght@100&family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&family=Comic+Neue:wght@400;700&family=Dosis:wght@500&family=Lilita+One&family=Montserrat:wght@100&family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&family=Comic+Neue:wght@400;700&family=Dosis:wght@500&family=Lilita+One&family=Montserrat:wght@100&family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&family=Comic+Neue:wght@400;700&family=Dosis:wght@500&family=Lilita+One&family=Montserrat:wght@100&family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&family=Comic+Neue:wght@400;700&family=Dosis:wght@500&family=Lilita+One&family=Montserrat:wght@100&family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&family=Comic+Neue:wght@400;700&family=Dosis:wght@500&family=Lilita+One&family=Montserrat:wght@100&family=Roboto+Condensed&display=swap");
+html, body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #F7E1AE;
+}
+
+html, body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #F7E1AE;
+}
+
+nav {
+  text-align: center;
+  height: auto;
+  background-color: #B04759;
+  width: auto;
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+nav ul li a:hover {
+  background-color: #974452;
+  border-radius: 30px;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
