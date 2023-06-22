@@ -1,0 +1,46 @@
+@import '../abstract/variables';
+
+#services{
+    
+    h3{
+        font-size: 1.4rem;
+        color: $cor-terciaria;
+        margin: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    h4{
+        font-size: 2rem;
+        margin: 0.5rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .cards{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        .card{
+            width: 22.5rem;
+           .img-container{
+            padding-bottom: 0.5rem;
+            border-bottom:0.3rem solid $cor-terciaria ;
+            margin: 0.5rem;
+            img{
+                max-width: 100%;  
+            }
+           }
+
+           h5{
+                font-size: 2rem;
+                padding-bottom: 0.9rem;
+                font-weight: 800;
+           }
+           p{
+            font-size: 1.2rem;
+           }
+        }
+        
+    }
+
+}

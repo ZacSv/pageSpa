@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Birthstone&family=Comic+Neue:wght@400;700&family=Dosis:wght@500&family=Lilita+One&family=Montserrat:wght@100&family=Roboto+Condensed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Birthstone&family=Comic+Neue:wght@400;700&family=Dosis:wght@500&family=Lilita+One&family=Montserrat:wght@100&family=Roboto+Condensed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Birthstone&family=Comic+Neue:wght@400;700&family=Dosis:wght@500&family=Lilita+One&family=Montserrat:wght@100&family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&family=Comic+Neue:wght@400;700&family=Dosis:wght@500&family=Lilita+One&family=Montserrat:wght@100&family=Roboto+Condensed&display=swap");
 html, body {
   font-family: "Roboto Condensed", sans-serif;
   background-color: #F7E1AE;
@@ -63,4 +64,51 @@ nav ul li a:hover {
 }
 .banner .inner-banner h2 {
   font-size: 1.5rem;
+}
+
+#services h3 {
+  font-size: 1.4rem;
+  color: #E76161;
+  margin: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+#services h4 {
+  font-size: 2rem;
+  margin: 0.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#services .cards {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+#services .cards .card {
+  width: 22.5rem;
+}
+#services .cards .card .img-container {
+  padding-bottom: 0.5rem;
+  border-bottom: 0.3rem solid #E76161;
+  margin: 0.5rem;
+}
+#services .cards .card .img-container img {
+  max-width: 100%;
+}
+#services .cards .card h5 {
+  font-size: 2rem;
+  padding-bottom: 0.9rem;
+  font-weight: 800;
+}
+#services .cards .card p {
+  font-size: 1.2rem;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#footer .inner-footer {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
