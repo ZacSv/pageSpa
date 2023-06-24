@@ -1,5 +1,7 @@
-#deck-image{
-    img{
-       max-width: 90%;
+@media(max-width: 1250px){
+    #deck-image{
+        img{
+           max-width: 90%;
+        }
     }
 }
