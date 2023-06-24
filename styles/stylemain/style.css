@@ -224,4 +224,8 @@ footer .assinatura-index {
 }
 #cupom .botao {
   width: 40%;
+}
+
+#deck-image img {
+  max-width: 90%;
 }/*# sourceMappingURL=style.css.map */
