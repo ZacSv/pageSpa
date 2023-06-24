@@ -15,13 +15,29 @@
  }
 
     .texto__deck{
-        padding-bottom: 5%;
         color: $cor-secundaria;
         font-size: 1.2rem;
-        margin: 3rem;
+        margin: 1rem;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 2%;
         strong{
             font-weight: bold;
         }
-        
     }
+
 }
+
+footer{
+    background-color:$cor-secundaria;
+    height: 30px;
+    .assinatura-index{
+        font-size: 15spx;
+        font-family:'Courier New', Courier, monospace;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        padding-top: 0.5%;
+       
+    }
+    }
