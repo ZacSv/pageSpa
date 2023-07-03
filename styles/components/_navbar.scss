@@ -5,25 +5,5 @@ nav{
    height: auto;
    background-color: $cor-secundaria;
    width: auto;
-   ul{
-        li{
-        display: inline-block;
-        padding: 10px;
-        text-decoration: none;
-            a{
-                text-decoration: none;
-                color: black;
-                font-size: 1rem;
-                text-transform: uppercase;
-                
-                    &:hover{
-                        background-color: $cor-hover;
-                        border-radius: 30px;
-                        font-weight: bold;
-                        
-                    }
-                  
-            }
-        }
-   }
+
 }
